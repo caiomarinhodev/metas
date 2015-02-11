@@ -1,0 +1,12 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index()
+POST	/criarMeta					controllers.Application.criarMeta()
+POST	/marcarMeta/:nome			controllers.Application.marcarMetaAlcancada(nome: String)
+DELETE	/deletarMeta/:nome			controllers.Application.deletarMeta(nome: String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

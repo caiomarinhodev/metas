@@ -1,0 +1,23 @@
+table{
+	width:100%;
+	word-break: break-all;
+}
+
+table, th, td{
+	border-style: groove;
+	text-align: left;
+	font-family: inherit;
+}
+
+.imgMetaRealizada{
+	width: 36px;
+	height: 35px;
+}
+
+table tbody tr.true td{
+	background-color: rgb(182, 189, 194);
+}
+
+.tdCheck{
+	text-align:center;
+}
